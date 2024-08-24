@@ -24,7 +24,7 @@ print(bcolors.OKGREEN+welcomemsg)
 
 #command program
 def repeat():
-    msg=input("Enter A Command: ")
+    msg=input(bcolors.OKBLUE+"Enter A Command: ")
     match msg:
         case "clear":
             a=gtts.gTTS("clearing a terminal")
