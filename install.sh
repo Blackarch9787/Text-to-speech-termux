@@ -1,11 +1,9 @@
 echo "Updating system....."
 apt update -y
 apt upgrade -y
-echo "Updating pakages......"
-pkg update -y
-pkg upgrade -y
+
 echo "Install python......."
-pkg install python -y
+apt install python -y
 echo "Install mpv & gtts modules........"
 pip install mpv
 pip install gtts
